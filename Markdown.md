@@ -154,7 +154,6 @@ def function():
 사용법
 
 ```
-참조링크 - [id]: URL "Option Title"
 인라인 - [title](link)
 url링크: <URL/>
 E-mail: <abc@abc.com>
@@ -162,9 +161,8 @@ E-mail: <abc@abc.com>
 
 예시
 
-[google]: https://www.google.com "google link"
-[google]: (http://www.google.com)
-[google]: http://www.google.com/
+[google](https://www.google.com)  
+<https://www.google.com/>
 
 <email@abc.com>
 
@@ -179,6 +177,12 @@ E-mail: <abc@abc.com>
    <img src=이미지링크, width="450px" height="300px" title="크기변경">
 3. 이미지 삽입 후 링크 걸기  
    [![이미지](링크)(연결할 링크)]
+
+### 결과
+
+![메이플스토리](./assets/md/image/메이플.png)
+<img src=./assets/md/image/메이플.png, width="450px" height="300px" title="크기변경">
+[![메이플스토리](https://maplestory.nexon.com/Home/Main)(https://maplestory.nexon.com/Home/Main)]
 
 ## 10. 표 삽입
 
