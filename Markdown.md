@@ -180,8 +180,8 @@ E-mail: <abc@abc.com>
 
 ### 결과
 
-![메이플스토리](./assets/md/image/메이플.png)
-<img src=./assets/md/image/메이플.png, width="450px" height="300px" title="크기변경">
+![메이플스토리](./assets/md/image/메이플.png)  
+<img src=./assets/md/image/메이플.png, width="450px" height="300px" title="크기변경">  
 [![./assets/md/image/메이플.png](https://maplestory.nexon.com/Home/Main)(https://maplestory.nexon.com/Home/Main)]
 
 ## 10. 표 삽입
