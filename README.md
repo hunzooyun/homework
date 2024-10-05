@@ -6,6 +6,10 @@
 
 [나 자신을 소개하는 글](./about-me.md)
 
+## 2주차 과제 - Avaters
+
+[Avatars](./md/avatars.md)
+
 ## 강의를 들으면서 메모해둔 글 모음
 
 [Markdown 명령어 관련 모음](./md/markdown.md)  
