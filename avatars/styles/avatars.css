@@ -1,0 +1,40 @@
+div {
+  position: absolute;
+}
+.box {
+  width: 356px;
+  height: 168px;
+  border: 1px solid;
+  padding: 116px;
+  text-align: center;
+}
+
+span img,
+span {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  float: left;
+}
+
+.online {
+  top: -40px;
+  left: 45px;
+  position: relative;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4cfe88;
+}
+.offline {
+  top: -40px;
+  left: 45px;
+  position: relative;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #dbdbdb;
+}
