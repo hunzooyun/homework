@@ -2,7 +2,7 @@
 
 ## Avatars 과제 링크
 
-[Avatars.html](./../avatars/avatars.html)
+[Avatars.html](./../avatars/avatars.html)  
 [Avatars.css](./../avatars/styles/avatars.css)
 
 ## Avatars 과제에 대하여
