@@ -1,0 +1,155 @@
+/* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+@import "./../../assets/common/best-reset.css";
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body * {
+  --font-size: 0.875rem;
+  --height: 2.8125rem;
+  --border-color: #dadada;
+  --bgc: #fff;
+  --focus-border-color: #03cf5d;
+  --focus-bgc: #e9f0fd;
+  --focus-color: #24388d;
+
+  font-size: var(--font-size);
+  color: var(--border-color);
+  margin: 0;
+  padding: 0;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
+}
+
+.content {
+  flex-flow: row;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.brandlogo {
+  inline-size: 14.375rem;
+  margin: 0 auto 1.25rem;
+}
+
+form {
+  inline-size: 100%;
+  background-color: #f9f9f9;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  border-color: currentColor;
+}
+
+form > span {
+  display: flex;
+  max-inline-size: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  inline-size: calc(100% - 2.5rem);
+  padding: 0 0.625rem;
+  height: 2.8125rem;
+  font-size: 0.875rem;
+  border: 0.0625rem solid var(--border-color);
+  background-color: var(--bgc);
+  margin-bottom: 1.25rem;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: var(--focus-border-color);
+  background-color: var(--focus-bgc);
+  outline: none;
+}
+
+.button {
+  display: block;
+  inline-size: calc(100% - 2.5rem);
+  height: 2.8125rem;
+  background-color: var(--focus-border-color);
+  border: none;
+  color: var(--bgc);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+
+input[type="checkbox"] {
+  display: inline-flex;
+  inline-size: 0.0625rem;
+  block-size: 0.0625rem;
+  margin: -0.0625rem;
+  justify-self: start;
+}
+
+.stayloggedin-label {
+  display: inline-flex;
+  block-size: 1.5rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.stayloggedin-label::before {
+  content: "";
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  margin-inline-end: 0.3125rem;
+  background-image: url("./../../assets/login/unchecked.svg");
+}
+
+input[type="checkbox"]:checked + .stayloggedin-label::before {
+  background-image: url("./../../assets/login/checked.svg");
+}
+
+.ip-security {
+  display: flexbox;
+  margin-inline-start: auto;
+  margin-top: 0.625rem;
+}
+
+.ip-security a {
+  color: var(--#121212);
+}
+
+input:focus,
+.button:focus {
+  box-shadow: 0 0 0 0.125rem var(--focus-color);
+}
+
+@media (min-width: 48rem) {
+  .content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 2.5rem;
+
+    form {
+      inline-size: 100%;
+      max-inline-size: 31.25rem;
+      background-color: #f9f9f9;
+      padding: 1.25rem;
+      box-sizing: border-box;
+      border-color: currentColor;
+    }
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .ip-security {
+    display: none;
+  }
+}

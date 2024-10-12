@@ -1,0 +1,85 @@
+body {
+  width: 500px;
+}
+a {
+  margin: 10px;
+  font-size: medium;
+  border: 1px solid;
+}
+.floatbox {
+  width: 316px;
+  height: 148px;
+  border: 1px solid;
+  padding-left: 116px;
+  padding-right: 116px;
+  padding-bottom: 116px;
+  padding-top: 116px;
+  text-align: center;
+  float: left;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 316px;
+  height: 148px;
+  border: 1px solid;
+  padding-left: 116px;
+  padding-right: 116px;
+  padding-bottom: 116px;
+  padding-top: 116px;
+  text-align: center;
+}
+
+span img,
+span {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 2px;
+  position: relative;
+}
+
+span > .online {
+  top: -5px;
+  left: 45px;
+  position: absolute;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4cfe88;
+}
+span > .offline {
+  top: -5px;
+  left: 45px;
+  position: absolute;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #dbdbdb;
+}
+.flex {
+  span > .online {
+    top: 45px;
+    left: 47px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #4cfe88;
+  }
+  span > .offline {
+    top: 45px;
+    left: 48px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+  }
+}
