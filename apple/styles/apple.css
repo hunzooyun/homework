@@ -13,7 +13,10 @@
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
 
-  background: url(./../products/ipad_pro.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/ipad_pro.jpeg" 1x, "./../products/ipad_pro_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -22,7 +25,10 @@
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
 
-  background: url(./../products/ipad_air.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/ipad_air.jpeg" 1x, "./../products/ipad_air_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -30,7 +36,10 @@
   grid-column: 1 / -1;
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
-  background: url(./../products/iphone15_pro.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/iphone15_pro.jpeg" 1x, "./../products/iphone15_pro_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -38,7 +47,10 @@
   grid-column: 1 / -1;
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
-  background: url(./../products/iphone15.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/iphone15.jpeg" 1x, "./../products/iphone15_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -46,7 +58,10 @@
   grid-column: 1 / -1;
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
-  background: url(./../products/apple_watch.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/apple_watch.jpeg" 1x, "./../products/apple_watch_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -54,7 +69,10 @@
   grid-column: 1 / -1;
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
-  background: url(./../products/macbook_air.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/macbook_air.jpeg" 1x, "./../products/macbook_air_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -62,25 +80,37 @@
   grid-column: 1 / -1;
   block-size: var(--size);
   padding-block-start: var(--large-spacing);
-  background: url(./../products/airpods_pro.jpeg) border-box no-repeat 0 0 / cover;
+  background-image: image-set("./../products/airpods_pro.jpeg" 1x, "./../products/airpods_pro_2x.jpeg" 2x);
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
 }
 
 @media (min-width: 1024px) {
   .card-ipad-pro {
-    background: url(./../products/ipad_pro_wide.jpeg) border-box no-repeat 0 0 / cover;
+    background-image: image-set("./../products/ipad_pro_wide.jpeg" 1x, "./../products/ipad_pro_wide_2x.jpeg" 2x);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding-block-start: var(--extra-large-spacing);
   }
 
   .card-ipad-air {
-    background: url(./../products/ipad_air_wide.jpeg) border-box no-repeat 0 0 / cover;
+    background-image: image-set("./../products/ipad_air_wide.jpeg" 1x, "./../products/ipad_air_wide_2x.jpeg" 2x);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding-block-start: var(--extra-large-spacing);
   }
 
   .card-iphone-15-pro {
-    background: url(./../products/iphone15_pro_wide.jpeg) border-box no-repeat 0 0 / cover;
+    background-image: image-set("./../products/iphone15_pro_wide.jpeg" 1x, "./../products/iphone15_pro_wide_2x.jpeg" 2x);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding-block-start: var(--extra-large-spacing);
   }

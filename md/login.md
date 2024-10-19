@@ -2,7 +2,7 @@
 
 ## 제출 자료 링크
 
-[login](./../login/login.html)
+[login](./../login/login.html)  
 [login](./../login/styles/login.css)
 
 ### 과제 조건
