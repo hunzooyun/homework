@@ -4,15 +4,17 @@
 
 ## 1주차 과제 - 자신의 대하여 소개하기
 
-[나 자신을 소개하는 글](./md/about-me.md)
+[나 자신을 소개하는 글](https://hunzooyun.github.io/homework/md/about-me)
 
 ## 2주차 과제 - Avaters
 
-[Avatars](./md/avatars.md)
+[Avatars](https://hunzooyun.github.io/homework/md/avatars)
 
 ## 3주차 과제 - login
 
-[login](./md/login.md)
+[login](https://hunzooyun.github.io/homework/md/login)
+
+## 4주차 과제 -
 
 ## 강의를 들으면서 메모해둔 글 모음
 
